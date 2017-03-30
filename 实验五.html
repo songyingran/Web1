@@ -1,0 +1,117 @@
+<! doctype html>
+<html>
+	<head>
+		<title></title>
+		<meta charset="utf-8"/>
+	</head>
+	<body>
+		<table>
+			<tr>
+				<td width="79">用户名:</td>
+				<td width="309"><input type="text"/></td>
+			</tr>
+			<tr>
+				<td width="79">密码:</td>
+				<td width="309"><input type="text"/></td>
+			</tr>
+			<tr>
+				<td width="79">确定密码:</td>
+				<td width="309"><input type="text"/></td>
+			</tr>
+			<tr>
+				<td width="79">性别:</td>
+				<td width="309">
+				<input type="radio" name="sex" value="Male"/>男
+				<input type="radio" name="sex" value="Female"/>女</td>
+			</tr>
+			<tr>
+				<td width="79">生日:</td>
+				<td width="309">
+				<select name="birthday">
+					<option value="one" selected="selected">公历</option>
+					<option value="two">阴历</option>
+				</select>
+				<select name="年份">年
+					<option value="one" selected="selected">年</option>
+					<option value="two">1998</option>
+				</select>
+				<select name="月份">月
+					<option value="one" selected="selected">月</option>
+					<option value="two">4</option>
+				</select>
+				<select name="日">
+					<option value="one" selected="selected">日</option>
+					<option value="two">2</option>
+					<option value="three">3</option>
+					<option value="four">4</option>
+				</select>
+				</td>
+			</tr>
+			<tr>
+				<td width="79">所在地:</td>
+				<td width="309">
+				<select name="国家">
+					<option value="one" selected="selected">中国</option>
+					<option value="two">美国</option>
+				</select>
+				<select name="省">
+					<option value="one" selected="selected">河北</option>
+					<option value="two">湖南</option>
+				</select>
+				<select name="市">
+					<option value="one" selected="selected">石家庄</option>
+					<option value="two">保定</option>
+				</select>
+				</td>
+			</tr>
+			<tr>
+				<td width="79">验证码:</td>
+				<td width="309">
+				<input type="text"/>
+				<img src="shiyan5/yzm.jpg" width="80" height="25"/>
+				</td>
+			</tr>
+			<tr>
+				<td width="79">证件类型:</td>
+				<td width="309">
+					<select name="类型">
+						<option value="one" selected="selected">身份证</option>
+						<option value="two">学生证</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td width="79">证件号:</td>
+				<td width="309"><input type="text"/></td>
+			</tr>
+			<tr>
+				<td width="79">爱好:</td>
+				<td width="309">
+				<input type="checkbox" name="hobby" value="音乐"/>音乐
+				<input type="checkbox" name="hobby" value="读书"/>读书
+				<input type="checkbox" name="hobby" value="跳舞"/>跳舞
+				<input type="checkbox" name="hobby" value="下棋"/>下棋
+				<input type="checkbox" name="hobby" value="其他"/>其他
+				</td>
+			</tr>
+			<tr>
+				<td width="79">说明:</td>
+				<td width="309">
+				<textarea name="cat" rows="3" cols="30">
+				</textarea>
+				</td>
+			</tr>
+			<tr>
+				<td width="79">上传头像</td>
+				<td width="309"><input type="button" name="选择文件" value="选择文件">未选择任何文件</td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center">
+				<input type="submit" name="sub" value="提交">
+				<input type="reset" name="reset" value="重置">	
+				<input type="button" name="按钮" value="按钮">
+				</td>
+			</tr>	
+		</table>
+	</body>
+</html>
