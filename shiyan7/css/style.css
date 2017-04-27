@@ -1,0 +1,8 @@
+body{font-size:12px;line-height:2em;color:gray;font-family:'Arial';}
+a:hover{text-decoration:underline;}
+a:link{text-decoration:none;color:#727272;}
+td a:hover{font-weight:bolder;text-decoration:none;color:#b9f605;}
+.one{font-size: 14px;color: #b9f605;font-weight: bold;}
+.two{color:#FFFFFF;}
+#orange{color:#fdb306;}
+
