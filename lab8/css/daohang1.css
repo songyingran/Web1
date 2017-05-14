@@ -1,0 +1,8 @@
+li{background:url(../image/left_nav_item.gif) no-repeat;width:100px;height:35px;}
+.one{background:url(../image/left_nav_txt.gif) repeat-y;height:100px;}
+#titlediv{height:20px;color:white;padding:10px 50px;background:url(../image/left_nav_title.gif) no-repeat;}
+.menu{padding:0px;}
+.checked{color:red;}
+#footerdiv{height:40px;width:190px;background:url(../image/left_nav_bottom.gif) no-repeat;}
+a{text-decoration:none;color:black;}
+ul{list-style-image:url(../image/left_cur.gif);}

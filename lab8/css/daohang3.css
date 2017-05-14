@@ -1,0 +1,7 @@
+*{padding:0px;margin:0px;}
+ul{list-style-type:none;}
+.menu{width:2000px;background:url(../image/bg.gif);height:100px;}
+li{float:left;padding:30px 25px;}
+.special{color:orange;}
+a{text-decoration:none;color:white;}
+.shouye{color:#b9f605;}
