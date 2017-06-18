@@ -1,0 +1,20 @@
+body{background-image: url(../images/bg.jpg);background-repeat: no-repeat;}
+a{text-decoration: none;}
+a:link{color: #522a06;}
+a:hover{text-decoration: underline;}
+#top{width: 100%;}
+.top_top{background-image: url(../images/top_bg.png);background-repeat: no-repeat;height: 225px;}
+.top_banner{padding-left: 20px;padding-top: 10px;width: 150px;height: 80px;}
+.top_bottom{background-image: url(../images/nav.jpg);width: 100%;height: 50px;}
+.top_bottom_link{background-image: url(../images/top_link.jpg);width: 150px;height: 30px; float: left;margin: 10px;}
+.top_bottom_link a{font-size: 20px;padding-left: 40px; height:30px; line-height:30px;}
+.nav_search{float: right;margin-top: 10px;margin-bottom: 10px;margin-right: 40px;}
+.shurukuang{width: 140px;height: 19px;background-color: #f8f5ee;}
+.sosuo{width: 44px;height: 21px;background-color: #000;color: #fff;border-width: 1px;border-style: solid;border-color: #f8f5ee;}
+#footer{height: 105px;clear: both;background-image: url(../images/foot.gif);text-align: center;}
+.footer_a{text-align: center;}
+.footer_p{text-align: center;line-height: 20px;}
+#content{width: 1000px;margin-left: 180px;}
+h1{font-size: 40px;color: #00ffff;font-weight: bolder;text-align: center;}
+#content p{text-indent: 2em;font-size: 20px;}
+.img1{width: 400px;margin-top: 10px;margin-bottom: 10px;margin-left: 40px;margin-right: 40px;}
